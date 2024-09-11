@@ -1,0 +1,15 @@
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+#make backend
+
+npm init -y
+npm i express mysql2 sequelize cors
+
+buat index.js
+buad folder config
+
+
+#make frontend
+
+npx create-react-app frontend
+npm i react-router-dom axios bulma
